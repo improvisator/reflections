@@ -11,3 +11,13 @@ What value do you think it offers?
 The staging area groups together files that will be used in a single 'commit'.
 This allows a change that spans multiple files to be committed in one commit.
 
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Some situations when branches would be helpful...saving a production release separate from the
+version being worked on for the next set of features. This way, if fixes are needed on the
+production version, you can make them 'just there' and then make a patch release.
+Branches would also be useful for experimenting on different features, and/or allowing engineers
+in multiple groups to create their own path.
+In both cases, branches would help to label which-is-which.
+
