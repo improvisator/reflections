@@ -4,3 +4,10 @@ Why do you need to do it?
 When you initialize a repository, it creates an empty .git directory repository.
 The .git directory with everything in it to 'start' a repository.
 You need to do this as a starting point for starting version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area groups together files that will be used in a single 'commit'.
+This allows a change that spans multiple files to be committed in one commit.
+
