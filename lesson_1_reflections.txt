@@ -1,0 +1,86 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    A diff (or fc) isolates the lines that are different so it is easier than
+    looking at the entire file side-by-side.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    Accessing the entire history would allow you to see all of the incremental changes
+    made along the way. In this way, you could learn where you went wrong - hopefully,
+    to not repeat the same problems in future development.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    The pros of manually choosing a commit is that you can make them when you have
+    made a particular change to the code (many times you will label it with some descriptive
+    text explaining the purpose of the change). Also, since changes are made in many different
+    places and/or files, it is useful to have them all committed at the same time.
+    The cons of manually choosing a commit is that you might forget to do it or do it without
+    any thought to the programmatic change that was made (i.e. undoing a change may result in a
+    "partially" functional change to the code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+    
+    For the reason described above...i.e. the functionality made to the code crosses multiple files
+    and we are trying to capture the functional change to the code - not just the lexical change.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    Not sure...but I'd guess that git log lets me see the log of checked in changes and diff lets me
+    see the difference between different check-ins.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    If I can easily 'go back' to a previous version, then I would take more risks in making changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'd just like to use it for some code samples (probably some of the stuff I was doing in Eclipse).
+
+How could easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    I'd be able to try things out and correct them by 'going back' to a working version.
+    I'd be able to see where I went wrong with the design and improve in the future.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs
+having versions automatically saved, like Google docs does?
+    For programming, it is a much more logical view of what a change really means (i.e. a change in 
+    functionality, a fix, a group of related fixes). All has to do with the logic of the changes.
+    Also, hopefully, you've combined this with testing so you have certified versions of SW at each commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+others, like Google Docs, treat each file separately?
+   Git is used for program version control, so it allows multiple files to be committed at once because they
+   may be related to each other. Google Docs, is an editor that works on one file at a time, so it treats
+   each file separately. Note: i expect that you can use Google Docs for editing files and manager their
+   version using Git...so you could use the ability of Git to track 'cross-file' changes of Google Doc files.
+
+How can you use the commands git log and git diff to view the history of files?
+    You can use "git log" to see the commits that have been made; listed starting with latest going backward.
+    You can use "git diff" to see the changes that have been made between the versions.
+
+How might using version control make you more confident to make changes that could break something?
+    Using version control allows me to go back to versions that were saved before the change to see how
+    the program functions differently. Also, I can then perform 'diff's between the versions to see exactly
+    what has changed to cause the different functionality. Therefore, I can 'break' something...and then 
+    'unbreak' it by going to a previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    I'd like to use it for program development, expecially programming and learning GUI development.
+    Maybe....it would be useful for the iterations of learning something like this - we'll see.
+
+
+
+
+
+*What happens when you have something working, introduce more changes, and want to 'go back' but keep some of the changes that you've added.
+
+
+
+

@@ -1,0 +1,6 @@
+What happens when you initialize a repository?
+Why do you need to do it?
+
+When you initialize a repository, it creates an empty .git directory repository.
+The .git directory with everything in it to 'start' a repository.
+You need to do this as a starting point for starting version control.
