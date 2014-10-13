@@ -24,3 +24,13 @@ How would you collaborate without using Git or GitHub?
  You would need to exchange files and manually make the changes in them.
 What would be easier, and what would be harder?
  It would be alot harder and would increase as more people are added to the project.
+
+When would you want to make changes in a separate branch rather than directory in master?
+What benefits does each approach have?
+You want to make changes in a separate branch so you don't disturb the master branch.
+You can then test them, and also submit them for review w/o affecting the master branch.
+The benefits of this approach is that the master is always 'correct' at least for the person
+controlling it :) 
+Also, it allows for 'many' branches to be created simultaneously and then merged as they are approved.
+ 
+
