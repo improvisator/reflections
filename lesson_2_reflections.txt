@@ -21,3 +21,14 @@ Branches would also be useful for experimenting on different features, and/or al
 in multiple groups to create their own path.
 In both cases, branches would help to label which-is-which.
 
+How do the diagrams help you visualize the branch structure?
+The diagrams help me to understand how branches work and trace back to earlier versions.
+They also show what 'cannot' be traced back if the commit is on another branch.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+The result is to combine the changes of the two branches into one w/a commit.
+It is represented in the diagram as a merging because it is. The result contains all of the changes
+that were made in the previous branches.
+
+
