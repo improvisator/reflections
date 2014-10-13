@@ -6,3 +6,11 @@ up-to-date with your remote repository?
  You may have changes on a branch in your repository that you want to push the the remote
  repository. In this case, you wouldn't want the remote repository automatically updating
  your local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ A fork is used to create a copy of a repository to then modify independently on github.
+ -> If I want a copy to work collaborate on without affecting the original.
+ A clone is used to create a copy of a repository locally or between github and locally.
+ -> If I want a copy to work on myself without affecting the original (or if I don't have permission)
+ A branch is within a repository - either locally or on github.
+ -> To make changes to a file in a repository (maintaining a history linkage, of course)
