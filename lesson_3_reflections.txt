@@ -14,3 +14,7 @@ Describe the differences between forks, clones, and branches. When would you use
  -> If I want a copy to work on myself without affecting the original (or if I don't have permission)
  A branch is within a repository - either locally or on github.
  -> To make changes to a file in a repository (maintaining a history linkage, of course)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+ It enables you to diff and to merge the commits between the two.
+
