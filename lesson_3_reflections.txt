@@ -33,4 +33,5 @@ The benefits of this approach is that the master is always 'correct' at least fo
 controlling it :) 
 Also, it allows for 'many' branches to be created simultaneously and then merged as they are approved.
  
+This is some additional text
 
